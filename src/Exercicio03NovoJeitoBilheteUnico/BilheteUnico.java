@@ -10,7 +10,7 @@ public class BilheteUnico {
     final static double TarifaBase = 5.4;
     Usuario usuario;
 
-    public BilheteUnico() {
+    public BilheteUnico(Usuario usuario) {
         this.numero = gerarNumero();
         this.saldo = 0;
         this.usuario = usuario;

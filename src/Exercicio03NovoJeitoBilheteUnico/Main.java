@@ -44,6 +44,8 @@ public class Main {
 
             System.out.println("Tipo de tarifa (Estudante | Professor | Comum): ");
             TipoTarifa = sc.next();
+            Bilhete[index] = new BilheteUnico(new Usuario(nome, cpf, TipoTarifa));
+            index++;
         }
     }
 }
