@@ -101,8 +101,4 @@ public class Main {
         System.out.println("Bilhete não encontrado!!");
         return null;
     }
-
-    public static void ChecarSaldo() {
-
-    }
 }
